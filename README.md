@@ -15,7 +15,7 @@ The most accurate weather forecast for the next 5 days. You don't need more beca
 ### Clone repository
 
 ```bash
-git clone https://github.com/vtolochk/weather_test.git
+git clone git@github.com:d4ins/weather-test.git
 ```
 
 ### Installing packages
