@@ -1,0 +1,27 @@
+.form {
+  display: flex;
+  margin: 20px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: white;
+  width: 25vw;
+  height: 180px;
+  animation: formAppearance 1s;
+}
+
+.form-button {
+  margin-top: 10px;
+  width: 100%;
+}
+
+@media only screen and (max-width: 992px) {
+  .form {
+    width: 50vw;
+  }
+}
+
+@keyframes formAppearance {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}

@@ -1,0 +1,3 @@
+const CELSIUS_ZERO_IN_KELVIN = 273.1;
+
+export default CELSIUS_ZERO_IN_KELVIN;

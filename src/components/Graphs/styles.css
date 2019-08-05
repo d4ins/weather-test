@@ -1,0 +1,47 @@
+.ant-spin {
+  height: 60%;
+  width: 80%;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.ant-empty {
+  margin: 100px;
+  animation: appearance 1s;
+}
+
+.ant-empty-description {
+  color: white;
+}
+
+.ant-result-title {
+  color: white;
+}
+
+.ant-result-subtitle {
+  color: white;
+}
+
+.ant-spin .ant-spin-text {
+  color: white;
+  margin-top: 10px;
+}
+
+.ant-carousel {
+  height: 60%;
+  width: 80%;
+  animation: appearance 1s;
+}
+
+.ant-carousel .slick-slide {
+  overflow: hidden;
+  height: 400px;
+}
+
+@keyframes appearance {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
